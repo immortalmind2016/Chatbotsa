@@ -1,0 +1,170 @@
+//variables
+
+//colors
+$navActive: rgb(143, 218, 153);
+$btnColor: #b8e6c1;
+$btnReadLess: #f28f27;
+$body: rgb(255, 228, 115), rgb(248, 219, 104), rgb(252, 220, 95);
+$headerColor: #fff;
+$linksColor: #fff;
+$navColor: #f28f27;
+$copy: #696767;
+$liBefore: #f28f27;
+
+body {
+  background-image: linear-gradient(45deg, $body);
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+  color: $headerColor;
+}
+
+.btn-primary {
+  background: $btnColor;
+  &:hover {
+    background: lighten($btnColor, 3%);
+  }
+}
+a {
+  color: $linksColor;
+  &:hover {
+    color: $linksColor;
+  }
+}
+
+.custom-active {
+  color: $navActive;
+}
+
+li a.custom-active:hover {
+  color: lighten($navActive, 10%);
+}
+
+/*scroll top button*/
+.fa-chevron-circle-up {
+  color: rgba($headerColor, 0.7);
+  &:hover {
+    color: $headerColor;
+  }
+}
+
+/*contact button*/
+.fa-comments {
+  color: rgba($headerColor, 0.7);
+  &:hover {
+    color: $headerColor;
+  }
+}
+
+/*header*/
+
+header {
+  nav {
+    background: $navColor;
+
+    li a:hover {
+      color: $headerColor;
+    }
+  }
+}
+
+/*quote section*/
+.readLess {
+  background: $btnReadLess;
+  border-color: $btnReadLess;
+  &:focus,
+  &:active,
+  &:hover {
+    box-shadow: 0 0 0.2rem $btnReadLess;
+    outline: $btnReadLess;
+    background: $btnReadLess;
+  }
+  &:hover {
+    background: lighten($btnReadLess, 3%);
+  }
+}
+
+.quote {
+  padding-top: 100px;
+  .jumbotron {
+    background: rgba($headerColor, 0.5);
+
+    .display-4 {
+      color: darken($headerColor, 80%);
+    }
+  }
+}
+
+/* services */
+.services {
+  .carousel-inner {
+    h1,
+    h2,
+    h3 {
+      color: $headerColor;
+    }
+    h4 {
+      color: darken($headerColor, 20%);
+    }
+
+    li {
+      color: $headerColor;
+      &::before {
+        content: "\203A";
+        display: inline-block;
+        color: $liBefore;
+        font-size: 30px;
+        margin: 0 5px;
+      }
+    }
+  }
+
+  .carousel-indicators {
+    li {
+      background: rgba(darken($liBefore, 35%), 0.4);
+
+      &.active {
+        background: darken($liBefore, 35%);
+      }
+    }
+  }
+}
+
+/*testimonials*/
+.testimonial {
+  .card {
+    background: rgba($headerColor, 0.45);
+  }
+
+  .card-img-top {
+    border: 1px solid $headerColor;
+  }
+}
+
+/*letters*/
+.letters {
+  .letter-describtion {
+    color: $liBefore;
+  }
+}
+
+/*footer*/
+footer {
+  background: rgba($headerColor, 0.45);
+
+  h2,
+  h3 {
+    color: $liBefore;
+  }
+
+  .copy {
+    color: $copy;
+  }
+
+  li::before {
+    color: $liBefore;
+  }
+}

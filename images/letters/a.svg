@@ -1,0 +1,31 @@
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="80px" height="80px" viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BDBDBD;}
+
+
+</style>
+
+<path class="st0" d="M29.817,50.056l-5.652,17.118h-7.268l18.492-54.425h8.479L62.44,67.174h-7.51l-5.814-17.118H29.817z
+	 M47.663,44.564l-5.33-15.666c-1.211-3.553-2.019-6.782-2.826-9.932h-0.161c-0.808,3.23-1.696,6.541-2.746,9.852l-5.33,15.746
+	H47.663z"/>
+    
+    
+        <script>
+        var svg=document.querySelectorAll("svg");
+        var st=document.querySelector("path");
+            
+        st.parentElement.onmouseenter=function(){
+                st.style.fill="#333";
+                st.style.stroke="#333";
+            }
+            
+        st.parentElement.onmouseleave=function(){
+                st.style.fill="#BDBDBD";
+                st.style.stroke="transparent";
+            }
+        
+        </script>
+
+</svg>

@@ -1,0 +1,31 @@
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="80px" height="80px" viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BDBDBD;}
+
+</style>
+<path class="st0" d="M64.247,39.396c0,18.734-11.386,28.666-25.274,28.666c-14.373,0-24.467-11.144-24.467-27.616
+	c0-17.28,10.739-28.585,25.274-28.585C54.638,11.861,64.247,23.246,64.247,39.396z M22.016,40.285
+	c0,11.627,6.298,22.044,17.361,22.044c11.143,0,17.441-10.255,17.441-22.609c0-10.821-5.652-22.126-17.361-22.126
+	C27.829,17.594,22.016,28.334,22.016,40.285z"/>
+    
+    
+    
+        <script>
+        var svg=document.querySelectorAll("svg");
+        var st=document.querySelector("path");
+            
+        st.parentElement.onmouseenter=function(){
+             st.style.fill="#333";
+                st.style.stroke="#333";
+            }
+            
+        st.parentElement.onmouseleave=function(){
+                st.style.fill="#BDBDBD";
+                st.style.stroke="transparent";
+            }
+        
+        </script>
+    
+</svg>

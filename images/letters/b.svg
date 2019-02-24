@@ -1,0 +1,29 @@
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="80px" height="80px" viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BDBDBD;}
+</style>
+<path class="st0" d="M22.732,13.477c3.069-0.646,7.914-1.131,12.84-1.131c7.024,0,11.547,1.211,14.938,3.957
+	c2.826,2.099,4.521,5.329,4.521,9.608c0,5.249-3.472,9.852-9.205,11.951v0.161c5.168,1.293,11.224,5.572,11.224,13.646
+	c0,4.684-1.856,8.236-4.603,10.902c-3.795,3.472-9.932,5.086-18.814,5.086c-4.845,0-8.56-0.322-10.901-0.646V13.477z M29.758,35.763
+	h6.379c7.43,0,11.79-3.876,11.79-9.124c0-6.38-4.845-8.883-11.951-8.883c-3.23,0-5.087,0.242-6.218,0.484V35.763z M29.758,61.845
+	c1.373,0.242,3.392,0.323,5.895,0.323c7.268,0,13.97-2.665,13.97-10.578c0-7.43-6.379-10.498-14.05-10.498h-5.814V61.845z"/>
+    
+    
+            <script>
+        var svg=document.querySelectorAll("svg");
+        var st=document.querySelector("path");
+            
+        st.parentElement.onmouseenter=function(){
+                st.style.fill="#333";
+                st.style.stroke="#333";
+            }
+            
+        st.parentElement.onmouseleave=function(){
+                st.style.fill="#BDBDBD";
+                st.style.stroke="transparent";
+            }
+        
+        </script>
+</svg>

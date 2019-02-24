@@ -1,0 +1,27 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="80px" height="80px" viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BDBDBD;}
+    
+</style>
+<path class="st0" d="M37.553,18.976H21V13h40.294v5.976H44.66v48.449h-7.106V18.976z"/>
+    
+    
+    
+        <script>
+        var svg=document.querySelectorAll("svg");
+        var st=document.querySelector("path");
+            
+        st.parentElement.onmouseenter=function(){
+              st.style.fill="#333";
+                st.style.stroke="#333";
+            }
+            
+        st.parentElement.onmouseleave=function(){
+                st.style.fill="#BDBDBD";
+                st.style.stroke="transparent";
+            }
+        
+        </script>
+    
+</svg>
