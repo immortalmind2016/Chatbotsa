@@ -183,7 +183,7 @@ body {
   padding: 20px;
   overflow: scroll;
   padding-bottom: 80px;
-  background-image: url(../../images/others/messger.PNG);
+  background-image: url("../../../public/images/others/messger.PNG");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: bottom;
@@ -231,7 +231,7 @@ header {
     &::after {
       content: "";
       background: bottom/100% auto no-repeat;
-      background-image: url("../../images/letters/ruler_default.svg");
+      background-image: url("../../../public/images/letters/ruler_default.svg");
       opacity: 0.4;
       position: absolute;
       top: 0;
@@ -255,7 +255,7 @@ header {
 }
 
 .home-background {
-  background-image: url("../../images/backgrounds/Home.svg");
+  background-image: url("../../../public/images/backgrounds/Home.svg");
   height: 100%;
   background-size: cover;
   position: absolute;
@@ -294,7 +294,7 @@ header {
 
   .gif {
     background-size: contain;
-    background-image: url("../../images/mockups/iphone6.svg");
+    background-image: url("../../../public/images/mockups/iphone6.svg");
     background-repeat: no-repeat;
     background-position: center center;
     height: 500px;
@@ -314,7 +314,7 @@ header {
       z-index: -1;
       opacity: 1;
       background-size: contain;
-      background-image: url("../../images/gifs/chatbotCnoversation.svg");
+      background-image: url("../../../public/images/gifs/chatbotCnoversation.svg");
       transform: scale(0.766);
       background-repeat: no-repeat;
       background-position: center center;
@@ -470,7 +470,7 @@ header {
 /* services */
 .services {
   padding: 10px;
-  background-image: url("../../images/backgrounds/videoBackground.jpg");
+  background-image: url("../../../public/images/backgrounds/videoBackground.jpg");
   background-size: cover;
   background-attachment: fixed;
   height: 800px;
@@ -992,7 +992,7 @@ footer {
     width: 100%;
     display: block;
     position: relative;
-    background-image: url("../../images/backgrounds/teamWork.JPG");
+    background-image: url("../../../public/images/backgrounds/teamWork.JPG");
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
